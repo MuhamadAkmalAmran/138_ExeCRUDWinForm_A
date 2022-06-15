@@ -17,10 +17,17 @@ namespace _138_ExeCRUDWinForm_A
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        
+        private void button5_Click(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'exe3_PABDDataSet.TampilAmbilMapel' table. You can move, or remove it, as needed.
-            this.tampilAmbilMapelTableAdapter.Fill(this.exe3_PABDDataSet.TampilAmbilMapel);
+            
+        }
+
+
+        DataClasses1DataContext db = new DataClasses1DataContext();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var ps = db.insertSiswa(int.Parse(textNIM.Text), textSiswa.Text, textAlamat.Text); 
 
         }
     }

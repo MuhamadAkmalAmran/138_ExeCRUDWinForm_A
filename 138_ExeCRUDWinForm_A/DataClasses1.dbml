@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Exe3_PABD" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LENOVO\AKMALAMRAN;Initial Catalog=Exe3_PABD;User ID=sa" SettingsObjectName="_138_ExeCRUDWinForm_A.Properties.Settings" SettingsPropertyName="Exe3_PABDConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.insertSiswa" Method="insertSiswa">
+    <Parameter Name="NIM" Parameter="nIM" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nama_Siswa" Parameter="nama_Siswa" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="Alamat" Parameter="alamat" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

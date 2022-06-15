@@ -32,5 +32,17 @@ namespace _138_ExeCRUDWinForm_A
             new Form2().Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Form3().Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Form4().Show();
+            this.Hide();
+        }
     }
 }
