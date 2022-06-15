@@ -26,5 +26,11 @@ namespace _138_ExeCRUDWinForm_A
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
+            this.Hide();
+        }
     }
 }

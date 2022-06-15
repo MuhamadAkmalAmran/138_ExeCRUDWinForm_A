@@ -56,7 +56,7 @@ namespace _138_ExeCRUDWinForm_A
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(493, 218);
+            this.button3.Location = new System.Drawing.Point(471, 201);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 18;
@@ -65,7 +65,7 @@ namespace _138_ExeCRUDWinForm_A
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(387, 218);
+            this.button2.Location = new System.Drawing.Point(322, 201);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 17;
@@ -74,7 +74,7 @@ namespace _138_ExeCRUDWinForm_A
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(277, 218);
+            this.button1.Location = new System.Drawing.Point(189, 201);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 16;
@@ -83,23 +83,23 @@ namespace _138_ExeCRUDWinForm_A
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(387, 142);
+            this.textBox3.Location = new System.Drawing.Point(322, 142);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 22);
+            this.textBox3.Size = new System.Drawing.Size(224, 22);
             this.textBox3.TabIndex = 15;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(387, 88);
+            this.textBox2.Location = new System.Drawing.Point(322, 88);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 22);
+            this.textBox2.Size = new System.Drawing.Size(224, 22);
             this.textBox2.TabIndex = 14;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(387, 39);
+            this.textBox1.Location = new System.Drawing.Point(322, 41);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 22);
+            this.textBox1.Size = new System.Drawing.Size(224, 22);
             this.textBox1.TabIndex = 13;
             // 
             // label4
@@ -144,7 +144,7 @@ namespace _138_ExeCRUDWinForm_A
             this.nIMDataGridViewTextBoxColumn,
             this.kodeMapelDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tampilAmbilMapelBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(189, 247);
+            this.dataGridView1.Location = new System.Drawing.Point(189, 243);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
