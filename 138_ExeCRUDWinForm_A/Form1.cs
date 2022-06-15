@@ -16,5 +16,10 @@ namespace _138_ExeCRUDWinForm_A
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
