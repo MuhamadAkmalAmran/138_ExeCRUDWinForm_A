@@ -21,5 +21,10 @@ namespace _138_ExeCRUDWinForm_A
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
